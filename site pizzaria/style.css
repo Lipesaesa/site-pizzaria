@@ -1,0 +1,251 @@
+body{
+ background-color: lightsalmon;
+}
+html{
+    scroll-behavior: smooth;
+    /* serve para deixar uma anmimação mais fluida quando clicar em links */
+}
+.nav {
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#h1-header{
+    color: white;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+
+}
+
+.h3-header{
+    color: white;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+
+}
+
+#header{
+    background-color: red;
+    z-index: 1 ;
+    padding: 10px;
+}
+
+.link-cabecalho{
+    text-decoration: none;
+    color: white;
+    word-spacing: 5px;
+    font-size: 16px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navegation {
+    text-align: right;
+    padding: 5px;
+}
+
+.section-1{
+    color: white;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.h2-section1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 27px;
+
+}
+
+.p1{
+    padding-top: 13px;
+    font-family: arial;
+    font-size: 22px;
+}
+
+#section-grid{
+    padding: 10px;
+    height: 10%;
+    padding-bottom: 20px;
+}
+
+.section-2{
+    background-color: red;
+    margin: 0 auto;
+    width: 30%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+.grid{
+
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 15px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+.sub-grid{
+    margin: 0 auto;
+    padding: 20%;
+    background-color: white;
+    
+} 
+
+.img-pizza{
+    width: 100%;
+}
+
+.h2-cardapio{
+    font-family: arial;
+    font-size: 28px;
+    color: white;
+}
+
+.h2-sub-grid{
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.p-preços{
+    font-family: arial;
+    font-size: 20px;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;   
+}
+/* font-weight serve pra deixar a letra com um estilo, por exemplo o italico  */
+
+.botao-acao{
+    width: 70%;
+    background-color: red;
+    font-size: 18px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px ;
+}
+
+.link-cabecalho{
+    font-weight: bold;
+    font-family: arial;
+
+}
+
+.link-cabecalho:hover{
+    color: yellow;
+    transition: all ease-in-out  3ms;
+    /* essa parte é a transição da barra do home e dos menus pra tentar imitar o figma, eu gostei bastante dsjdjks */
+}
+
+#pizza-portuguesa{
+    height: 60%;
+    padding: 15px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#pizza-4-queijos{
+    height: 70%;
+    padding: 15px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botao-acao:hover{
+    color: yellow;
+    transition: all ease-in-out;
+}
+
+#rodapé{
+    background-color: red;
+}
+
+#h2-rodapé{
+    color: white;
+    font-size: 28px;
+    font-family: arial;
+    text-align: center;
+}
+
+.p1-footer{
+    color: white;
+    font-family:arial;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#pizza-chocolate-com-morango{
+    height: 60%;
+    padding: 15px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#pizza-chocolate-com-leite-ninho{
+    height: 60%;
+    padding: 15px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botao-whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 25px;
+    background-color: green;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+    box-shadow: 1px 2px 5px green;
+}
+
+#sub-div-sorvete1{
+    height: 55%;
+    max-height: 90%;
+}
+
+#sub-div-sorvete2{
+    height: 55%;
+    max-height: 100%;
+}
+
+.fa-whatsapp{
+    margin-top: 15px;
+    color: white;
+}

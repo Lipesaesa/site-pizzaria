@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body onload="boasVindas()">
+
+    <header id="header">
+        <h1 id="h1-header"> Pizzaria Rogerio Ceni </h1>
+        <h3 class="h3-header"> A Melhor pizzaria do bairro </h3>
+        <nav id="navegation">
+            <a class="link-cabecalho" href="./login.html">Home</a>
+            <a class="link-cabecalho" href="./pagedrink.html">Bebidas</a>
+            <a class="link-cabecalho" href="./sobremesas.html">Sobremesas</a>
+        </nav>
+    </header>
+
+    <br><br><br>
+
+    <section class="section-1">
+        <h2>Promoções da semana</h2>
+        <p class="p1">De Qua à Sex Pizzas por 20,99</p>
+        <p class="p1">Aproveite essa Oferta ein</p>
+        <p id="status-loja"></p> <!-- Exibe o horário de funcionamento -->
+    </section>
+
+    <br><br><br>
+
+    <section class="section-2" id="section-grid">
+        <h2 id="pizzas" class="h2-cardapio">Pizzas do nosso cardápio campeão</h2>
+        <br><br>
+        <div class="grid">
+            <div class="sub-grid">
+                <h2 class="h2-sub-grid">Pizza de Calabresa</h2>
+                <img class="img-pizza" src="./Pizzas/PizzaCalabresa.png" alt="Pizza de calabresa">
+                <p class="p-preços">R$ 24,99</p>
+                <a id="link-whatsapp" href="https://api.whatsapp.com/send/?phone=5511992394023&text=Olá, eu gostaria de pedir uma pizza de calabresa" target="_blank">
+                    <button class="botao-acao">Pedir pizza</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="sub-grid">
+                <h2 class="h2-sub-grid">Pizza Portuguesa</h2>
+                <img id="pizza-portuguesa" class="img-pizza" src="./Pizzas/PizzaPortuguesa.png" alt="Pizza Portuguesa">
+                <p class="p-preços">R$ 24,99</p>
+                <a id="link-whatsapp" href="https://api.whatsapp.com/send/?phone=5511992394023&text=Olá, eu gostaria de pedir uma pizza de portuguesa" target="_blank">
+                    <button class="botao-acao">Pedir pizza</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="sub-grid">
+                <h2 class="h2-sub-grid">Pizza de Brócolis</h2>
+                <img class="img-pizza" src="./Pizzas/PizzaNew.png" alt="Pizza de brócolis">
+                <p class="p-preços">R$ 26,99</p>
+                <a id="link-whatsapp" href="https://api.whatsapp.com/send/?phone=5511992394023&text=Olá, eu gostaria de pedir uma pizza de brócolis" target="_blank">
+                    <button class="botao-acao">Pedir pizza</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="sub-grid">
+                <h2 class="h2-sub-grid">Pizza 4 Queijos</h2>
+                <img id="pizza-4-queijos" class="img-pizza" src="./Pizzas/PizzaQueijo.png" alt="Pizza de queijo">
+                <p class="p-preços">R$ 22,99</p>
+                <a id="link-whatsapp" href="https://api.whatsapp.com/send/?phone=5511992394023&text=Olá, eu gostaria de pedir uma pizza 4 queijos" target="_blank">
+                    <button class="botao-acao">Pedir pizza</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <a class="botao-whatsapp" href="https://api.whatsapp.com/send/?phone=5511992394023&text=Olá, Eu gostaria de fazer um pedido">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+
+    <br><br><br><br><br>
+
+    <footer id="rodapé">
+        <h2 id="h2-rodapé">Contatos Pizzaria</h2>
+        <p class="p1-footer">WhatsApp: (11) 99239-4023</p>
+        <p class="p1-footer">Email: pizzariasp3mundial@gmail.com</p>
+        <p class="p1-footer">CNPJ 16.921.823/0001-90</p>
+        <p class="p1-footer">Desenvolvido por Felipe Torres Gonzalez</p>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
